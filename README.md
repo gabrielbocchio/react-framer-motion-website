@@ -11,8 +11,7 @@ Learn and experiment with different animations using framer-motion.
 
 Installation:
 
-Clone the repository: git clone https://github.com/your-username/react-review-app.git
-Navigate to the project directory: cd react-review-app
+Clone the repository.
 Install the dependencies: npm install
 
 
