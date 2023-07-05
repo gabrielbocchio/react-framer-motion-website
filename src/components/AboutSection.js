@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { About, Description, Image, Hide } from "../styles";
 import { titleAnim, fade, photoAnim } from "../animation";
 import Wave from "./Wave";
-import { scrollReveal } from "../animation";
+
 
 
 const AboutSection = () => {

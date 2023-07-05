@@ -5,10 +5,9 @@ import teamwork from '../img/teamwork.svg'
 import home2 from '../img/home2.png'
 //styles
 import { About, Description, Image} from '../styles'
-import React, { useEffect } from "react";
+import React from "react";
 import styled from 'styled-components'
 import { useScroll } from './useScroll'
-import {fade} from "../animation"
 import { scrollReveal } from "../animation";
 
 const ServicesSection = () => {

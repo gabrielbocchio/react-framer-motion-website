@@ -3,7 +3,6 @@ import { About } from "../styles";
 import Toggle from "./Toggle";
 import { LayoutGroup } from "framer-motion";
 import { useScroll } from "./useScroll";
-import { fade } from "../animation";
 import { scrollReveal } from "../animation";
 
 const FaqSection =() =>{

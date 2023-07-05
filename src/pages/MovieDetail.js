@@ -8,7 +8,7 @@ import ScrollTop from "../components/ScrollTop";
 
 const MovieDetail = () => {
     const url = useLocation();
-    const [movies, setMovies] = useState(MovieState);
+    const [movies] = useState(MovieState);
     const [movie, setMovie] = useState(null)
 
     //useEffect
@@ -25,7 +25,7 @@ const MovieDetail = () => {
         <Details exit="exit" variants={pageAnimation} initial="hidden" animate="show">
             <HeadLine>
             <h2>{movie.title}</h2>
-            <img src={movie.mainImg}/>
+            <img src={movie.mainImg} alt="sarasa"/>
 
             </HeadLine>
             <Awards>
@@ -34,7 +34,7 @@ const MovieDetail = () => {
                 ))}
             </Awards>
             <ImgDisplay>
-                <img src={movie.secondaryImg} alt="" />
+                <img src={movie.secondaryImg} alt="sarasa" />
             </ImgDisplay>
             <ScrollTop />
         </Details>
